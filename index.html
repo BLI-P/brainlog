@@ -1,0 +1,209 @@
+
+<html><head><style>body {
+   color: black;
+   font-family: 'Cascadia Mono', sans-serif;
+}
+</style></head><body><h1 id="-name-shivank-pandey-"><strong>NAME : SHIVANK PANDEY</strong></h1>
+<p><br></p>
+<h1 id="-class-ix-a-"><strong>CLASS : IX-A</strong></h1>
+<p><br></p>
+<h1 id="-subject-computer-applications-"><strong>SUBJECT : COMPUTER APPLICATIONS</strong></h1>
+<p><br></p>
+<h1 id="-school-cms-rdso-branch-"><strong>SCHOOL : CMS, RDSO BRANCH</strong></h1>
+<p><br></p>
+<h1 id="-topic-loops-nested-loops-"><strong>TOPIC : LOOPS &amp; NESTED LOOPS</strong></h1>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br></p>
+<hr>
+<h1 id="-looping-while-do-while-"><strong>LOOPING (WHILE &amp; DO - WHILE)</strong></h1>
+<p><br></p>
+<h2 id="-what-is-looping-"><strong>WHAT IS LOOPING ?</strong></h2>
+<p><br></p>
+<h3 id="-loops-are-among-the-most-basic-and-powerful-of-programming-concepts-a-loop-in-a-computer-program-is-an-instruction-that-repeats-until-a-specified-condition-is-reached-in-a-loop-structure-the-loop-asks-a-question-"><strong>Loops are among the most basic and powerful of programming concepts. A loop in a computer program is an instruction that repeats until a specified condition is reached. In a loop structure, the loop asks a question.</strong></h3>
+<p><br></p>
+<h3 id="-if-the-answer-requires-action-it-is-executed-the-same-question-is-asked-again-and-again-until-no-further-action-is-required-each-time-the-question-is-asked-is-called-an-iteration-a-computer-programmer-who-needs-to-use-the-same-lines-of-code-many-times-in-a-program-can-use-a-loop-to-save-time-a-loop-repeatedly-executes-code-in-its-body-until-the-loop-conditional-statement-becomes-false-a-loop-is-divided-into-two-parts-"><strong>If the answer requires action, it is executed. The same question is asked again and again until no further action is required. Each time the question is asked is called an iteration. A computer programmer who needs to use the same lines of code many times in a program can use a loop to save time. A loop repeatedly executes code in its body until the loop conditional statement becomes false. A loop is divided into two parts :-</strong></h3>
+<p><br></p>
+<h3 id="-loop-statement-this-defines-the-time-limit-to-be-true-for-the-continuous-loop-that-is-contingent-on-the-attached-conditional-statement-"><strong><code>Loop Statement :</code> This defines the time limit to be true for the continuous loop that is contingent on the attached conditional statement.</strong></h3>
+<p><br></p>
+<h3 id="-loop-body-this-holds-the-statement-s-code-or-instruction-it-is-is-executed-with-each-loop-cycle-"><strong><code>Loop Body :</code> This holds the statement’s code or instruction; it is is executed with each loop cycle.</strong></h3>
+<p><br></p>
+<h1><strong>LOOP CONTROL STRUCTURE</strong></h1>
+<br>
+
+### <strong>A statement that alters the execution of a loop from its designated sequence is a loop control statement. Rust &amp; Java, for example, provides two loop control statements :-</strong>
+<br>
+
+### <strong>1. A break statement inside a loop terminates the loop immediately.</strong>
+<br>
+
+### <strong>2. A continue statement jumps to the next iteration of the loop, skipping any code in between.</strong>
+<br>
+<br>
+<h1><strong>TYPES OF LOOPS IN JAVA :-</strong></h1>
+
+<p><h2 style = "color : #1a73e0";><strong>while :</strong></h2></p>
+<h3><strong>A while loop or indefinite loop is a set of instructions that is repeated as long as the associated logical expression is true. The following is the abstract syntax of a while loop block. When Java reaches a while loop block, it first determines if the logical expression of the while loop is true or false. If the expression is true, the code block will be executed, and after it is executed, the program returns to the logical expression at the beginning of the while statement. If it is false, then the while loop will terminate.</strong></h3>
+
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> whileLoop{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> main(){
+        <span class="hljs-keyword">byte</span> control = <span class="hljs-number">90</span>;
+        <span class="hljs-keyword">byte</span> <span class="hljs-keyword">times</span> = <span class="hljs-number">0</span>;
+
+     <span class="hljs-comment">// While loop block.</span>
+        <span class="hljs-keyword">while</span>(control &gt; <span class="hljs-number">5</span>){
+            control = control - <span class="hljs-number">1</span>;    
+            <span class="hljs-keyword">times</span> = <span class="hljs-keyword">times</span> + <span class="hljs-number">1</span>;        
+        }
+    }
+}
+</code></pre>
+<p><br></p>
+<p><h2><strong>FLOWCHART OF A WHILE LOOP :-</strong></h2>
+<img src = "python.jpeg">
+<br>
+<br></p>
+<p><h2 style = "color : #1a73e0";><strong>do - while :</strong></h2></p>
+<h3><strong>Unlike for and while loops, which test the loop condition at the top of the loop, the do...while loop in Java programming checks its condition at the bottom of the loop.
+
+A do - while loop is similar to a while loop, except the fact that it is guaranteed to execute at least one time.</strong></h3>
+
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Main</span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(<span class="hljs-params"></span>)</span>{
+        <span class="hljs-keyword">byte</span> control = <span class="hljs-number">90</span>;
+        <span class="hljs-keyword">byte</span> console = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">do</span>{
+            control = control - <span class="hljs-number">1</span>;
+            console = console + <span class="hljs-number">1</span>;
+        }        
+        <span class="hljs-keyword">while</span>(control &gt; <span class="hljs-number">40</span>);
+    }
+}
+</code></pre>
+<p><br></p>
+<p><h2><strong>FLOWCHART OF A DO - WHILE LOOP :-</strong></h2>
+<br></p>
+<p><img src = "do.png">
+<br>
+<br>
+<br></p>
+<p><h1><strong>PROGRAMS ON LOOPS IN JAVA :</strong></h1></p>
+<h3><strong>Write a program to print the following pattern in Java :</strong></h3>
+
+<pre><code><span class="hljs-number">1</span>
+<span class="hljs-number">2</span>
+<span class="hljs-number">3</span>
+<span class="hljs-number">4</span>
+<span class="hljs-number">5</span>
+</code></pre><pre><code class="lang-java"><span class="hljs-comment">// Program to display numbers from 1 to 5</span>
+
+<span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> {
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(<span class="hljs-params">String[] args</span>) </span>{
+
+    <span class="hljs-comment">// declare variables</span>
+    <span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>, n = <span class="hljs-number">5</span>;
+
+    <span class="hljs-comment">// while loop from 1 to 5</span>
+    <span class="hljs-keyword">while</span>(i &lt;= n) {
+      System.<span class="hljs-keyword">out</span>.println(i);
+      i++;
+    }
+  }
+}
+</code></pre>
+<p><br>
+<br></p>
+<h3><strong>Write a program to print the following pattern in Java using do while loop :</strong></h3>
+
+<pre><code><span class="hljs-number">1</span>
+<span class="hljs-number">2</span>
+<span class="hljs-number">3</span>
+<span class="hljs-number">4</span>
+<span class="hljs-number">5</span>
+</code></pre><pre><code class="lang-java"><span class="hljs-comment">// Java Program to display numbers from 1 to 5</span>
+
+<span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> {
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(<span class="hljs-params">String[] args</span>) </span>{
+
+    <span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>, n = <span class="hljs-number">5</span>;
+
+    <span class="hljs-comment">// do...while loop from 1 to 5</span>
+    <span class="hljs-keyword">do</span> {
+      System.<span class="hljs-keyword">out</span>.println(i);
+      i++;
+    } <span class="hljs-keyword">while</span>(i &lt;= n);
+  }
+}
+</code></pre>
+<p><br>
+<br></p>
+<p><h1><strong>TYPES OF NESTED LOOPS IN JAVA :-</strong></h1>
+<br></p>
+<p><h3><strong>The loops that consist of another loop inside it as a nest-like structure are built, and the outer loop monitors the number of executions of the inner loop, loops working in such structure where is known as nested loop. It is also known as a loop inside the loop.</strong></h3>
+<br></p>
+<p><img src = "download.png">
+<br>
+<br>
+<br></p>
+<h1 id="-nested-for-loops-"><strong>NESTED FOR LOOPS : -</strong></h1>
+<h3 id="-a-for-loop-inside-of-another-loop-is-called-a-nested-for-loop-"><strong>A for loop inside of another loop is called a nested for loop.</strong></h3>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">NestedFor</span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(<span class="hljs-params"></span>)</span>{
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">byte</span> i = <span class="hljs-number">1</span>; i &lt; <span class="hljs-number">5</span>; i++){
+            <span class="hljs-keyword">for</span>(<span class="hljs-keyword">byte</span> c = <span class="hljs-number">1</span>; c &lt; <span class="hljs-number">5</span>; c++){
+                System.<span class="hljs-keyword">out</span>.print(c);
+            }
+        }
+        System.<span class="hljs-keyword">out</span>.print(<span class="hljs-string">"\n"</span>);
+    }
+}
+</code></pre>
+<h2 id="-programs-based-on-nested-for-loops-"><strong>PROGRAMS BASED ON NESTED FOR LOOPS :-</strong></h2>
+<h3 id="-write-a-program-to-print-the-following-pattern-in-java-"><strong>Write a Program to print the following pattern in Java :</strong></h3>
+<pre><code><span class="hljs-number">1</span>
+<span class="hljs-symbol">1 </span><span class="hljs-number">2</span>
+<span class="hljs-symbol">1 </span><span class="hljs-number">2</span> <span class="hljs-number">3</span>
+<span class="hljs-symbol">1 </span><span class="hljs-number">2</span> <span class="hljs-number">3</span> <span class="hljs-number">4</span>
+<span class="hljs-symbol">1 </span><span class="hljs-number">2</span> <span class="hljs-number">3</span> <span class="hljs-number">4</span> <span class="hljs-number">5</span>
+</code></pre><pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> {
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(<span class="hljs-params"></span>) </span>{
+
+    <span class="hljs-keyword">int</span> rows = <span class="hljs-number">5</span>;
+
+    <span class="hljs-comment">// outer loop</span>
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>; i &lt;= rows; ++i) {
+
+      <span class="hljs-comment">// inner loop to print the numbers</span>
+      <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> j = <span class="hljs-number">1</span>; j &lt;= i; ++j) {
+        System.<span class="hljs-keyword">out</span>.print(j + <span class="hljs-string">" "</span>);
+      }
+      System.<span class="hljs-keyword">out</span>.print(<span class="hljs-string">"\n"</span>);
+    }
+  }
+}
+</code></pre>
+<p><br>
+<br></p>
+<h3 id="-write-a-program-to-print-the-following-pattern-in-java-"><strong>Write a program to print the following pattern in Java :</strong></h3>
+<pre><code><span class="hljs-comment">****</span>
+<span class="hljs-comment">***</span>
+<span class="hljs-comment">**</span>
+<span class="hljs-comment">*</span>
+</code></pre><pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Main</span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(<span class="hljs-params"></span>)</span>{
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">byte</span> i = <span class="hljs-number">1</span>; i &lt;<span class="hljs-number">5</span>; i++){
+            <span class="hljs-keyword">for</span>(<span class="hljs-keyword">byte</span> c = <span class="hljs-number">5</span>; c &gt; i; c--){
+                System.<span class="hljs-keyword">out</span>.print(<span class="hljs-string">'*'</span>);
+            }
+            System.<span class="hljs-keyword">out</span>.print(<span class="hljs-string">"\n"</span>);
+        }
+    }
+}
+</code></pre>
+</body></html>
